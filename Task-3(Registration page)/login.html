@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <section class="container">
+        <div class="login-container">
+            <div class="circle circle-one"></div>
+            <div class="form-container">
+                <h1 class="opacity">LOGIN</h1>
+                <form >
+                    <input type="text" name="username" placeholder="Username" id="a" oninput="user()" required>
+                    <span style="color: red;" id="error1"></span>
+                    <input type="password" name="password" placeholder="Password" id="b" oninput="pass()" required>
+                    <span style="color: red;" id="error2"></span>
+                    <button class="opacity">Sign Up</button><br>
+                </form>
+                <div class="register-forget opacity">
+                    <a href="Register.html">REGISTER</a>
+                    <a href="">FORGOT PASSWORD</a>
+                </div>
+            </div>
+            <div class="circle circle-two"></div>
+        </div>
+        <div class="theme-btn-container"></div>
+    </section>
+    <script src="register.js"></script>
+</body>
+</html>
